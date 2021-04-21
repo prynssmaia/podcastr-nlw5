@@ -10,6 +10,19 @@ npm run dev
 yarn dev
 ```
 
+## Fix SASS import
+```bash
+npm install -D typescript-plugin-css-modules
+```
+tsconfig.json
+```bash
+{
+  "compilerOptions": {
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
