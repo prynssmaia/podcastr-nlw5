@@ -22,6 +22,16 @@ tsconfig.json
   }
 }
 ```
+## JSON Server
+
+Install
+```bash
+yarn add json-server -D
+```
+Run
+```bash
+yarn server
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
