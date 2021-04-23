@@ -42,7 +42,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   objectFit="cover"
                 />
 
-                <div className={styles.episodeDetauls}>
+                <div className={styles.episodeDatails}>
                   <a href="#">{episode.title}</a>
                   <p>{episode.members}</p>
                   <span>{episode.publishedAt}</span>
@@ -53,7 +53,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   <img src="/play-green.svg" alt="Tocar episódio" />
                 </button>
               </li>
-            );
+            )
           })}
         </ul>
       </section>
